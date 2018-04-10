@@ -11,7 +11,7 @@ namespace ConsoleApp1
         string tipoDeAcuatico;
 
         public Acuatico(string miMarca, string miPatente,
-            string miTipoDeAcuatico) : base(miMarca, miPatente)
+            string miTipoDeAcuatico, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)
         {
             tipoDeAcuatico = miTipoDeAcuatico;
         }

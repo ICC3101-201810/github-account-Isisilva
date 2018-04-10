@@ -10,7 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Sucursal s = new Sucursal
+            Console.WriteLine("Hola");
+            Console.WriteLine("Porfavor ingresa los siguientes datos: ");
+            Console.WriteLine("Rut: ");
+            string rut = Console.ReadLine(); 
+            Console.WriteLine("Nombre: ");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Licencia: ");
+            string licencia = Console.ReadLine();
+
+            Sucursal s = new Sucursal();
             s.agregarVehiculos();
         }
     }

@@ -6,12 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Sucursal
+    abstract class Sucursal
     {
         string nombre;
         string direccion;
-        
-        public string agregarVehiculos(Vehiculo vehiculo)
+        public Sucursal(string miNombre, string miDireccion)
+        {
+            nombre = miNombre;
+            direccion = miDireccion;
+        }
+
+        internal void agregarVehiculos()
+        {
+            throw new NotImplementedException();
+        }
+
+        public abstract void AgregarVehiculos(Vehiculo vehiculo);
             
     }
 }

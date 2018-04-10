@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Vehiculo
+    abstract public class Vehiculo
     {
         string marca;
         string patente;
+        string licenciaVehiculo;
  
-        public Vehiculo(string miMarca, string miPatente)
+        public Vehiculo(string miMarca, string miPatente, string miLicenciaVehiculo)
         {
             marca = miMarca;
             patente = miPatente;
+            licenciaVehiculo = miLicenciaVehiculo;
         }
     }
 }

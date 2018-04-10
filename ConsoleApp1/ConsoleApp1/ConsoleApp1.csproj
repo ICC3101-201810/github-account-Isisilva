@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Auto.cs" />
     <Compile Include="Camion.cs" />
+    <Compile Include="Arrendar.cs" />
+    <Compile Include="Empresa.cs" />
     <Compile Include="Sucursal.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Persona.cs" />

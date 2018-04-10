@@ -10,13 +10,11 @@ namespace ConsoleApp1
     {
         string nombre;
         string rut;
-        string licencia;
 
-        public Persona(string miNombre, string miRut, string miLicencia)
+        public Persona(string miNombre, string miRut)
         {
             nombre = miNombre;
             rut = miRut;
-            licencia = miLicencia;
         }
     }
 }

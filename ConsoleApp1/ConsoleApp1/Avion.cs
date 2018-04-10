@@ -11,7 +11,7 @@ namespace ConsoleApp1
         string tipoDeAvion;
 
         public Avion(string miMarca, string miPatente,
-            string miTipoDeAvion) : base(miMarca, miPatente)
+            string miTipoDeAvion, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)
         {
             tipoDeAvion = miTipoDeAvion;
         }

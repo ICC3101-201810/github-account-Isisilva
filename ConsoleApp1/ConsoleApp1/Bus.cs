@@ -11,7 +11,7 @@ namespace ConsoleApp1
         string tipoDeBus;
 
         public Bus(string miMarca, string miPatente,
-            string miTipoDeBus) : base(miMarca, miPatente)
+            string miTipoDeBus, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)
         {
             tipoDeBus = miTipoDeBus;
         }

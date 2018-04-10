@@ -11,7 +11,7 @@ namespace ConsoleApp1
         string tipoDeTractor;
 
         public Tractor(string miMarca, string miPatente,
-            string miTipoDeTractor) : base(miMarca, miPatente)
+            string miTipoDeTractor, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)
         {
             tipoDeTractor = miTipoDeTractor;
         }

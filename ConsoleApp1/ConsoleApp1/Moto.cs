@@ -11,7 +11,7 @@ namespace ConsoleApp1
         string tipoDeMoto;
 
         public Moto(string miMarca, string miPatente,
-            string miTipoDeMoto) : base(miMarca, miPatente)
+            string miTipoDeMoto, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)
         {
             tipoDeMoto = miTipoDeMoto;
         }

@@ -11,7 +11,7 @@ namespace ConsoleApp1
         string tipoDeRetroExcavadora;
 
         public RetroExcavadora(string miMarca, string miPatente,
-            string miTipoDeRetroExcavadora) : base(miMarca, miPatente)
+            string miTipoDeRetroExcavadora, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)
         {
             tipoDeRetroExcavadora = miTipoDeRetroExcavadora;
         }
