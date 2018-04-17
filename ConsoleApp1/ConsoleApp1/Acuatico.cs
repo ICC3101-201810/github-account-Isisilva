@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class Acuatico : Vehiculo
     {
-        string tipoDeAcuatico;
+        string tipoDeAcuatico { get; set; }
 
         public Acuatico(string miMarca, string miPatente,
             string miTipoDeAcuatico, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)

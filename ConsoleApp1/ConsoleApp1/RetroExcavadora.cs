@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class RetroExcavadora : Vehiculo
     {
-        string tipoDeRetroExcavadora;
+        string tipoDeRetroExcavadora { get; set; }
 
         public RetroExcavadora(string miMarca, string miPatente,
             string miTipoDeRetroExcavadora, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)

@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class Tractor : Vehiculo
     {
-        string tipoDeTractor;
+        string tipoDeTractor { get; set; }
 
         public Tractor(string miMarca, string miPatente,
             string miTipoDeTractor, string miLicenciaVehiculo) : base(miMarca, miPatente, miLicenciaVehiculo)

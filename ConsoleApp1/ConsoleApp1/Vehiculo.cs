@@ -17,6 +17,7 @@ namespace ConsoleApp1
             marca = miMarca;
             patente = miPatente;
             licenciaVehiculo = miLicenciaVehiculo;
+
         }
     }
 }
