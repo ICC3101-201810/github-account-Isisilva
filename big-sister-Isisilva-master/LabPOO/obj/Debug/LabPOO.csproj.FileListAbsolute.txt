@@ -1,0 +1,2 @@
+C:\Users\ING\Desktop\big-sister-Isisilva-master\LabPOO\obj\Debug\LabPOO.csprojResolveAssemblyReference.cache
+C:\Users\ING\Desktop\big-sister-Isisilva-master\LabPOO\obj\Debug\LabPOO.csproj.CoreCompileInputs.cache
