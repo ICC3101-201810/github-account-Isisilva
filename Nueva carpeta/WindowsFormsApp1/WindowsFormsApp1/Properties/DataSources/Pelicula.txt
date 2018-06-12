@@ -1,0 +1,1 @@
+Nombre, Director, Fecha de estreno, Descripcion, Presupuesto, Estudio
